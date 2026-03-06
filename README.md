@@ -74,6 +74,10 @@ This has been done to protect proprietary alpha. The defaults included in this s
 
 **1. Clone the repository & install dependencies:**
 ```bash
-git clone [https://github.com/Anirudh-AI1/Quant_XGBoost_Momentum_Model.git](https://github.com/Anirudh-AI1/Quant_XGBoost_Momentum_Model.git)
+git clone https://github.com/Anirudh-AI1/Quant_XGBoost_Momentum_Model.git
 cd Quant_XGBoost_Momentum_Model
 pip install pandas numpy matplotlib scikit-learn xgboost yfinance tabulate
+
+python XGBoost_target_predictor_github.py
+
+That will render cleanly so people can just click the "copy" button on GitHub and paste it straight into their terminals. 
