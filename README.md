@@ -52,7 +52,7 @@ The model engineers multiple features from raw `yfinance` data to feed the XGBoo
 
 The script outputs a ranked summary of all queried assets, sorting them by Live Signal Strength, Historical Win Rate, and Model Confidence.
 
-![Terminal Output Summary](XGBOOST_FINAL.png)
+![Terminal Output Summary](XGBOOST_FINAL_edit.png)
 
 ### Signal Classifications:
 * 🔥 **STRONG BUY:** Model confidence is significantly above the user-defined threshold (+15%).
