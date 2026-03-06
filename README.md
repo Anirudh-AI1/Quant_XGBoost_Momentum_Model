@@ -52,7 +52,7 @@ The model engineers multiple features from raw `yfinance` data to feed the XGBoo
 
 The script outputs a ranked summary of all queried assets, sorting them by Live Signal Strength, Historical Win Rate, and Model Confidence.
 
-*[Insert Screenshot Here - Take a screenshot of the grid output from your terminal and drag it here]*
+![Terminal Output Summary](XGBOOST_FINAL.png)
 
 ### Signal Classifications:
 * 🔥 **STRONG BUY:** Model confidence is significantly above the user-defined threshold (+15%).
@@ -74,6 +74,6 @@ This has been done to protect proprietary alpha. The defaults included in this s
 
 **1. Clone the repository & install dependencies:**
 ```bash
-git clone [https://github.com/yourusername/Quantitative-Momentum-Scanner.git](https://github.com/yourusername/Quantitative-Momentum-Scanner.git)
-cd Quantitative-Momentum-Scanner
+git clone [https://github.com/Anirudh-AI1/Quant_XGBoost_Momentum_Model.git](https://github.com/Anirudh-AI1/Quant_XGBoost_Momentum_Model.git)
+cd Quant_XGBoost_Momentum_Model
 pip install pandas numpy matplotlib scikit-learn xgboost yfinance tabulate
